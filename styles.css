@@ -1,0 +1,99 @@
+/* Importing Google Font 'Press Start 2P' for a pixelated look */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Body styling */
+body {
+    font-family: 'Press Start 2P', cursive; /* Applying the imported font */
+    background-color: #F06292; /* Subtle yet vibrant pink color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+/* Main content container */
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    max-width: 600px; /* Maximum width of the container */
+    animation: fadeIn 1.5s ease-in-out; /* Fade-in animation */
+    transition: transform 0.3s ease-in-out; /* Smooth transform transition */
+}
+
+/* Keyframe animation for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Heading styles */
+h1 {
+    color: #3E2723; /* Dark brown text color */
+    font-size: 2em; /* Larger font size */
+    margin: 20px 0; /* Top and bottom margin */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+}
+
+/* Paragraph styles */
+p {
+    color: #3E2723; /* Dark brown text color */
+    font-size: 1em; /* Normal font size */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+/* Banner styles */
+.banner {
+    background-color: #ffffff; /* White background */
+    color: #3E2723; /* Dark brown text color */
+    padding: 8px; /* Padding around the banner */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1.2em; /* Slightly smaller font size */
+    font-family: 'Press Start 2P', cursive; /* Applying the imported font */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+/* Share links container styles */
+.share {
+    margin-top: 20px; /* Top margin */
+}
+
+/* Share link styles */
+.share a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove default underline */
+    font-size: 1em; /* Normal font size */
+    margin: 0 10px; /* Left and right margin */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect for share links */
+.share a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker blue color */
+}
+
+/* Animation container styles */
+#animation {
+    position: relative; /* Relative positioning */
+    width: 100%; /* Full width */
+    height: auto; /* Auto height */
+    margin-top: 20px; /* Top margin */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Walking lady animation styles */
+.walking-lady {
+    width: 100%; /* Full width */
+}
+
+/* Adjust image size for walking lady */
+.walking-lady img {
+    width: 100%; /* Full width */
+    height: auto; /* Auto height */
+}

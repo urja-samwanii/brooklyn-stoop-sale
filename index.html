@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Brooklyn Stoop Sale Invitation</title>
+    <!-- Link to external stylesheet for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- FontAwesome icon kit for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Main container for the content -->
+    <div class="container">
+        <!-- Heading of the webpage -->
+        <h1>You're Invited to the Stoop Sale!</h1>
+        <!-- Banner for the event slogan -->
+        <div class="banner">Transform Your Look with Every Step!</div>
+        <!-- Event details -->
+        <p>Date: August 12, 2024</p>
+        <p>Time: 10:00 AM - 4:00 PM</p>
+        <p>Location: <a href="#" id="locationLink">123 Brooklyn St, NY</a></p>
+        <!-- Share buttons for social media -->
+        <div class="share">
+            <p>Share this event:</p>
+            <a href="#" id="twitterShare"><i class="fab fa-twitter"></i> Twitter</a> |
+            <a href="whatsapp://send?text=Join%20me%20at%20the%20Brooklyn%20Stoop%20Sale%20on%20August%2012,%202024%20-%20http://example.com" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a> |
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+        <!-- Animation container -->
+        <div id="animation">
+            <!-- Animated walking lady -->
+            <div class="walking-lady">
+                <img src="lady-walk.gif" alt="Walking Lady">
+            </div>
+        </div>
+        <!-- Play/Pause button for background music -->
+        <button id="musicControl" onclick="toggleMusic()">Pause Music</button>
+    </div>
+
+    <!-- Auto-playing background music -->
+    <audio id="backgroundMusic" src="your-music-file.mp3" loop></audio>
+
+    <!-- External JavaScript file for scripting -->
+    <script src="script.js"></script>
+</body>
+</html>
